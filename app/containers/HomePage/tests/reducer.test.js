@@ -18,7 +18,7 @@ describe('homeReducer', () => {
   });
 
   it('should handle the changeUsername action correctly', () => {
-    const fixture = 'mxstbr';
+    const fixture = 'edvillareal26';
     const expectedResult = produce(state, draft => {
       draft.username = fixture;
     });

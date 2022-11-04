@@ -18,7 +18,7 @@ Object {
   "combinator": false,
   "payload": Object {
     "args": Array [
-      "https://api.github.com/users/mxstbr/repos?type=all&sort=updated",
+      1000,
     ],
     "context": null,
     "fn": [Function],
@@ -45,7 +45,7 @@ Object {
   "combinator": false,
   "payload": Object {
     "args": Array [
-      "https://api.github.com/users/mxstbr/repos?type=all&sort=updated",
+      1000,
     ],
     "context": null,
     "fn": [Function],

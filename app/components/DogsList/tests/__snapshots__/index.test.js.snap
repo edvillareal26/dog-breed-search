@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReposList /> should render the loading indicator when its loading 1`] = `
+<div
+  class="Wrapper-sc-1760zxe-0 cgJsmn"
+>
+  <ul
+    class="Ul-sc-83uhvk-0 gZFHEO"
+  >
+    <div
+      class="Wrapper-sc-13dhj10-0 GCopJ"
+    >
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 gQJWle"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 jsGeJM"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 bTcvMv"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 bDVzCb"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 bdPOOL"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 fUeLWr"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 eGqaDL"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 jAyuFJ"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 bfyIIV"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 dLoheR"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 gPsUsV"
+      />
+      <div
+        class="Circle__CirclePrimitive-sc-164wmlx-0 csOftO"
+      />
+    </div>
+  </ul>
+</div>
+`;
+
+exports[`<ReposList /> should render the repositories if loading was successful 1`] = `
+<div
+  class="Wrapper-sc-1760zxe-0 cgJsmn"
+>
+  <ul
+    class="Ul-sc-83uhvk-0 gZFHEO"
+  >
+    <li
+      class="Wrapper-rjtaut-0 jSnscr"
+    >
+      <div
+        class="Item-sc-55w9s8-0 tUCWE"
+      >
+        <div
+          class="Wrapper-sc-2qz8k3-0 eRUZml"
+        >
+          <h3>
+            react-boilerplate
+          </h3>
+          <img
+            alt="react-boilerplate"
+            src="https://cdn2.thedogapi.com/images/undefined.jpg"
+          />
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

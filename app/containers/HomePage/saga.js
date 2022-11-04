@@ -2,7 +2,7 @@
  * Gets the repositories of the user from Github
  */
 
-import { call, put, select, takeLatest } from 'redux-saga/effects';
+import { call, put, select, takeLatest, delay } from 'redux-saga/effects';
 import { LOAD_REPOS } from 'containers/App/constants';
 import { reposLoaded, repoLoadingError } from 'containers/App/actions';
 
@@ -15,10 +15,11 @@ import { makeSelectUsername } from 'containers/HomePage/selectors';
 export function* getRepos() {
   // Select username from store
   const username = yield select(makeSelectUsername());
-  const requestURL = `https://api.github.com/users/${username}/repos?type=all&sort=updated`;
+  const requestURL = `https://api.thedogapi.com/v1/breeds/search?q=${username}&x-api-key=live_BoA42vXahi6Rfpmyuqqc8gMAShcVQ7V4itIIp7t65i6MtiIZmh611F86m3zfcAqV`;
 
   try {
     // Call our request helper (see 'utils/request')
+    yield delay(1000);
     const repos = yield call(request, requestURL);
     yield put(reposLoaded(repos, username));
   } catch (err) {
